@@ -1,0 +1,31 @@
+name = KBHNS
+description = KBHNS Custom
+core = 7.x
+
+;scripts[] = js/filename.js
+scripts[] = js/background-size.js
+scripts[] = js/map.js
+scripts[] = js/tabsmini.js
+scripts[] = js/tabs.js
+scripts[] = js/mobile-menu.js
+scripts[] = js/icons.js
+scripts[] = js/team.js
+scripts[] = js/slick/slick.js
+scripts[] = js/script.js
+scripts[] = js/CSS3MultiColumn.js
+
+
+stylesheets[all][] = js/slick/slick.css
+stylesheets[all][] = stylesheets/screen.css
+stylesheets[all][] = css/screen.css
+
+
+regions[navigation] = Navigation
+regions[header] = Header
+regions[banner] = Banner Inner
+regions[help] = Help
+regions[content] = Content
+regions[sidebar] = Sidebar
+regions[widgets] = Widgets
+regions[footer] = Footer
+

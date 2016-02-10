@@ -1,0 +1,702 @@
+@media screen and (max-width:1080px)
+{	
+	#block-block-12 .content,
+	#block-block-1 .content
+	{
+		padding-left:10px;
+	}
+
+	#block-block-1,
+	#block-block-12
+	{
+		float: none;
+		position: relative;
+
+		p
+		{
+			font-size: 14px;
+		}
+	}
+
+	#block-block-1,
+	#block-block-12
+	{
+		padding:30px 10px;
+
+	  .content
+	  {
+	  	padding-left:0px;
+	  	padding-bottom:20px;
+	  }
+
+	  .copyright
+	  {
+	  	display: none;
+	  }
+
+	}
+
+	#block-block-1,
+	#block-block-12
+	{	
+		.content div:first-child
+		{
+			padding-bottom:20px;
+		}
+		
+	}
+
+	.copyright
+	{
+		font-size: 12px;
+	}
+
+	#block-views-client-industries-detail-block .view-content
+	{
+		max-width: 667px;
+	}
+
+}
+
+@media screen and (max-width:980px)
+{
+	#header > div li a
+	{
+		font-size: 14px;
+		padding: 15px 9px 15px;
+	}
+
+	#block-views-header-image-block .views-field-body
+	{
+		font-size: 28px;
+	}
+
+	.view-professional-servcies 
+	{	
+		.view-content
+		{
+			max-width: 455px;
+			margin: 0 auto;
+		}
+
+		.right
+		{
+
+			padding-right:0px;
+		}
+	}
+
+
+	#block-views-ps-sidebar-block,
+	#block-views-client-industries-titles-block
+	{	
+		width: 10%;
+
+		.icons
+		{
+			float: none;
+		}
+
+		li a
+		{
+			font-size: 0px;
+			text-align: center;
+			line-height: 76px;
+			padding:0px;
+			vertical-align: middle;
+
+			.icons
+			{
+				background-position:center;
+			}
+		}
+	}
+
+	#block-system-main-menu
+	{	
+		display: none;
+		position: absolute;
+		right:0px;
+		top:82px;
+		width:250px;
+		background-color:white;
+
+		#main-contact,
+		#main-resources
+		{
+			display: block;
+		}
+
+	
+		&.slide
+		{
+			transform: translateX(0);
+			transition: transform 0.5s;
+			overflow-y: scroll;
+		}
+
+		ul.menu
+		{
+			text-align: right;	
+		}
+
+		ul.menu li
+		{
+			margin: 0px;
+		}
+
+		li.leaf
+		{
+			padding:0px;
+		}
+		.content ul.menu li
+		{
+			float: none;
+			padding-right:0px;
+
+			a
+			{
+				color:$black;
+				padding: 15px 0px;
+				text-decoration: none;
+				font-weight: bold;
+				display: block;
+				text-transform: uppercase;
+				padding-right:20px;
+				border-bottom:1px solid #00776d;
+
+				&:hover
+				{
+					color:#429d94;
+				}
+
+				&:hover:after,
+				&.active:after
+				{
+					display: none;
+				}
+			}
+		}
+
+		li.expanded 
+		{	
+
+			&:hover ul.menu
+			{
+				position:relative;
+			}
+
+			ul.menu 
+			{
+				z-index: 99;
+				display: block;
+				top:auto;
+				background: inherit;
+				text-align: right;
+
+				li
+				{
+					border-bottom:0px;
+					display: block;
+
+					a
+					{	
+						padding:15px 20px;
+						padding-right:30px;
+					}
+				}
+			}
+		}
+
+	}
+
+	#top-menu
+	{	
+		#main-contact,
+		#top-resources,
+		#top-resources-fr,
+		#main-contact-fr
+		{
+			display: none;
+		}	
+	}
+
+	body
+	{
+		overflow-x:hidden;
+	}
+
+	#page-wrapper
+	{
+		transform: translateX(0);
+		transition: transform 0.5s;
+	}
+
+	#page-wrapper.slide-wrapper
+	{
+		transform: translateX(250px);
+		transition: transform 0.5s;
+	}
+
+	#header > div > div
+	{
+		height: auto;
+	}
+
+	#block-block-5
+	{
+		display: block;
+		position: absolute;
+		top:30px;
+		right:10px;
+
+		.content a
+		{
+			text-transform:uppercase;
+			font-size: 18px;
+			color:$black;
+			font-weight: bold;
+		}
+	}
+
+
+	#logo
+	{
+		margin-bottom: 10px;
+	}
+
+	#block-views-header-image-block .views-field-body 
+	{	
+
+		font-size: 22px;
+		padding-left:20px;
+	
+	}
+
+	#block-block-3
+	{
+		padding:50px 10px 0px;
+	}
+
+
+	#header > div
+	{
+		padding:25px 10px 0px;
+	}
+
+	.view-team-list
+	{
+		max-width: 630px; 
+		margin: 0 auto;
+	}
+
+	.view-about-page-sections
+	{
+		.block1,
+		.block2
+		{
+			height: auto;
+		}
+	}
+
+	.view-about-page-sections 
+	{	
+		.body,
+		.body2
+		{
+			padding-top:0px;
+
+		}
+
+		.sidephoto2,
+		.sidephoto
+		{
+			width: 360px;
+
+			img
+			{
+				width: 100%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width:940px)
+{
+	.top-block
+	{
+		margin: -100px 10px 0;
+	}
+
+	.member-image
+	{
+		max-width: 278px;
+		width:auto;
+		padding-right: 20px;
+		padding-bottom: 20px;
+
+		img
+		{
+			width: 100%;
+		}
+	}
+
+	#top-menu #language-menu
+	{
+		margin-left: 10px;
+	}
+}
+
+@media screen and (max-width:767px)
+{	
+	#block-views-header-image-block .views-field-body 
+	{	
+
+		font-size: 18px;
+		padding-left:10px;
+	}
+
+	.left-block, .right-block
+	{
+		float: none;
+		width: 100%;
+	}
+
+	.top-block .icon-text
+	{
+		float: none;
+		width: auto;
+	}
+
+	#block-block-1,
+	#block-block-12
+	{	
+		.content > div
+		{
+			float: none;
+			width: 215px;
+			margin: 0 auto;
+		}
+	}
+
+	#block-block-1,
+	#block-block-12
+	{
+		.content .address
+		{
+			width: 215px;
+			padding-left: 0px;
+		}
+	}
+
+	.view-about-page-sections 
+	{	
+		.body,
+		.body2
+		{
+			width: 100%;
+		}
+
+		.leftside
+		{
+			.views-field-title
+			{
+				padding-bottom:20px;
+			}
+		}
+
+		.sidephoto2,
+		.sidephoto
+		{
+			width: 300px;
+			position: relative;
+			padding-top:20px;
+
+			img
+			{
+				width: 100%;
+			}
+		}
+
+		.body2
+		{
+			display: block;
+		}
+	}
+
+	.member-image,
+	.member-body
+	{
+		float: none;
+	}
+
+	.member-image
+	{
+		text-align: center;
+		margin: 0 auto;
+		padding-right:0px;
+	}
+
+	.member-body
+	{	
+		width: 100%;
+		text-align: left;
+	}
+
+	.member-body img
+	{
+		width:100%;
+		height: auto;
+	}
+
+	.view-team, .view-team-list
+	{
+		text-align: center;
+	}
+
+	.view-team-list
+	{
+		.views-row
+		{
+			min-width: 280px;
+			padding-right:0px;
+		}
+	}
+
+	.view-profession-type ul li
+	{
+		display: block;
+
+		&:hover a,
+		a.active
+		{
+			border-bottom:0px;
+		}
+	}
+
+	.copyright
+	{
+		font-size:10px;
+	}
+
+	#block-views-ps-sidebar-block,
+	#block-views-client-industries-titles-block
+	{
+		float: none;
+		width:100%;
+		overflow: hidden;
+		height: auto;
+
+		li
+		{	
+			float: left;
+			width:16.66%;
+			font-size: 0px;
+
+			a
+			{
+				border-right: 1px solid white;
+				border-bottom: 0px;
+
+				.icons
+				{
+					margin-right: 0px;
+				}
+			}
+		}
+
+		.view-footer
+		{
+			display: none;
+		}
+
+		button
+		{	
+			
+			position: absolute;
+			right:0px;
+			top:0px;
+			z-index: 99;
+		}
+
+		.slick-next.slick-disabled
+		{
+			display: none!important;
+		}
+
+		.slick-arrow
+		{
+			width:20px;
+			height: 77px;
+			cursor: pointer;
+
+			&:after
+			{
+				right:0px;
+				top:0px;
+			}
+
+			&.slick-prev
+			{
+				left:0px;
+			}
+
+			&.slick-right
+			{
+				right:0px;
+			}
+			
+
+			&.slick-prev:after
+			{
+				border-bottom: 10px solid transparent;
+				border-top: 10px solid transparent;
+				border-left: 10px solid transparent;
+				border-right: 10px solid white;
+				left:-5px;
+				top:0px;
+				
+			}
+
+			&.slick-next:after
+			{
+				border-bottom: 10px solid transparent;
+				border-top: 10px solid transparent;
+				border-left: 10px solid white;
+				border-right: 10px solid transparent;
+				left:5px;
+				top:0px;
+			}
+		}
+	}
+
+	#block-views-professional-servcies-block,
+	#block-views-client-industries-detail-block
+	{
+		width:100%;
+		border-bottom:0px;
+
+		.right
+		{
+			width:77%;
+		}
+		.views-field-title 
+		{	
+			padding-left:10px;
+
+			span:first-child+span
+			{
+				max-width: 300px;
+				display: block;
+			}
+
+			img
+			{
+				width:50px;
+			}
+		}
+
+		.views-field-body
+		{
+			padding-left:10px;
+			padding-right:10px;
+		}
+	}
+
+	#block-views-client-industries-detail-block 
+	{	
+		.view-content
+		{
+			max-width: 250px;
+		}
+
+		.slick-prev
+		{
+			left:-20px;
+		}
+
+		.slick-next
+		{
+			right: -20px;
+		}
+	}
+
+
+
+	#block-block-6
+	{
+		display:none;
+		padding:10px;
+		overflow: hidden;
+
+		p:first-child
+		{
+			float: left;
+			color:$seagreen;
+			font-size: 12px;
+		}
+
+		p:first-child+p
+		{
+			float: right;
+
+			a
+			{
+				color:black;
+			}
+		}
+	}
+
+	.front h2
+	{
+		line-height: 1.3em;
+		margin-bottom: 20px;
+		font-size: 38px;
+
+		&:before
+		{
+			bottom:-5px;
+		}
+	}
+
+	#logo
+	{
+		width:200px;
+
+		img
+		{
+			width:100%;
+		}
+	}
+
+	#map
+	{
+		float: none;
+		width: 100%;
+		margin-top: auto;
+	}
+
+	.top-block
+	{
+		padding:40px 20px
+	}
+
+	#footer-bottom
+	{
+		span
+		{
+			padding-left:10px;
+		}
+
+		.copyright
+		{
+			padding-right:10px;
+		}
+
+		p
+		{
+			padding-left:0px;
+		}
+	}
+	
+}
