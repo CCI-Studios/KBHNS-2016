@@ -1,5 +1,4 @@
 
-
   (function($) 
   {
   
@@ -57,23 +56,24 @@
          
             }
           }
-            
 
-            if($(this).scrollTop()-250 > t)
-            {   
-            $('#block-views-professional-servcies-block .left').addClass('slide');
-          
-            }
+          if($(this).scrollTop()-250 > t)
+          {   
+          $('#block-views-professional-servcies-block .left').addClass('slide');
+        
+          }
 
-            else if($(this).scrollTop()-280 < s)
-            { 
+          else if($(this).scrollTop()-280 < s)
+          { 
 
-              $('#block-views-professional-servcies-block .left').removeClass('slide');
-         
-            }
+            $('#block-views-professional-servcies-block .left').removeClass('slide');
+       
+          }
+
         });
 
         /* Front services body toggle*/
+
         $('#block-views-professional-servcies-block .views-more-link').click(function(e){
           e.preventDefault();
           $('#block-views-professional-servcies-block .body-full').hide();
@@ -105,22 +105,21 @@
             var $target = $(target);
 
             $('html, body').stop().animate({
-              'scrollTop': $target.offset().top-380
+              'scrollTop': $target.offset().top-180
             }, 150);
          }  
      
 
-    $('#block-system-main-menu a[href*=#]').on('click',function (e) 
-    { 
-      
-          var target = this.hash;
-          var $target = $(target);
-          $('html, body').stop().animate({
-              'scrollTop': $target.offset().top-180
-          }, 400, 'swing', function () {
-              window.location.hash = target;
-          });
-      });
+        $('#block-system-main-menu a[href*=#]').on('click',function (e) 
+        { 
+            var target = this.hash;
+            var $target = $(target);
+            $('html, body').stop().animate({
+                'scrollTop': $target.offset().top-180
+            }, 400, 'swing', function () {
+                window.location.hash = target;
+            });
+        });
   });
     
   /* PLaceholder */
@@ -133,8 +132,5 @@
       }
     })
   });
-
- 
-
-
+     
 })(jQuery);
