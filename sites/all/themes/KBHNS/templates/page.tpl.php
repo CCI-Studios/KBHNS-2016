@@ -75,7 +75,7 @@
 
   <div id="page-wrapper">
     <div>
-      <div>
+      <div id="navigation">
         <div id="top-menu">
             <div>
                 <?php $block_search = module_invoke('locale','block_view','language');?>

@@ -24,7 +24,6 @@
      $(".view-ps-sidebar .item-list li a, .view-client-industries-titles .item-list a, .view-profession-type .item-list a").each(function (index) {
         $(this).attr("href", "#spec" + index.toString());    
         var textValue = $(this).text();
-        console.log(textValue);
         textValue =textValue.split(' ').join('_');
         $(this).addClass(textValue);   
         $(this).parent().addClass('va-slice');
@@ -41,27 +40,26 @@
 
         });
 
-     $(".view-about-page-titles .item-list  a").each(function (index) {
-        $(this).attr("href", "#spec" + index.toString());    
-       
-        $(this).parent().addClass('va-slice');
-
-        });
-
-
-        $("#block-views-client-industries-detail-block .view-content .content, .view-about-page-sections .views-row").each(function (index) {
-            console.log(index);
-            $(this).attr("id", "spec" + index.toString());
+        $about_title=$(".view-about-page-titles .item-list  ul li");
+        $about_title.eq(0).find('a').attr("href", "#mission"); 
+        $about_title.eq(1).find('a').attr("href", "#history");    
+        $about_title.eq(2).find('a').attr("href", "#community");    
+          
+        $about_section=$(".view-about-page-sections .views-row")
+        $about_section.eq(0).attr("id", "mission"); 
+        $about_section.eq(1).attr("id", "history");    
+        $about_section.eq(2).attr("id", "community");   
+          
+        $("#block-views-client-industries-detail-block .view-content .content").each(function (index) {
+            
             var textValue = $(this).find('.views-field-title').text();
             console.log(textValue);
             textValue =textValue.split(' ').join('_');
             $(this).addClass(textValue);  
         })
 
-
           $(".view-team-list .view-content .container").each(function (index) {
             console.log(index);
-
             var textValue = $(this).find('h3').text();
             textValue =textValue.split(' ').join('_');
             $(this).attr("id", textValue);
@@ -70,8 +68,8 @@
             $(this).addClass(textValue);  
         })
 
-        $(".view-client-industries-titles .item-list ul, .view-about-page-titles .item-list ul,.view-profession-type .item-list ul").tabs();
-        $('.view-ps-sidebar .item-list ul, .view-client-industries-titles .item-list ul, .view-about-page-titles .item-list ul, .view-profession-type .item-list ul').each(function(){
+        $(" .view-about-page-titles .item-list ul,.view-profession-type .item-list ul").tabs();
+        $('.view-ps-sidebar .item-list ul,.view-about-page-titles .item-list ul, .view-profession-type .item-list ul').each(function(){
        
         var $active, $content, $links = $(this).find('a');
 

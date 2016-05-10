@@ -12,7 +12,7 @@ scripts[] = js/icons.js
 scripts[] = js/team.js
 scripts[] = js/slick/slick.js
 scripts[] = js/script.js
-scripts[] = js/CSS3MultiColumn.js
+scripts[] = js/client-industries.js
 
 
 stylesheets[all][] = js/slick/slick.css

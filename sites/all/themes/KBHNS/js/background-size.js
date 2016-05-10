@@ -2,27 +2,16 @@
 
 $(function(){
 
-
-		 $('.webform-component-file').prepend('<div class="browse-button">Browse</div>');
-		$("[type=file]").on("change", function(){
-		  // Name of file and placeholder
-		  var file = this.files[0].name;
-		  var dflt = $(this).attr("placeholder");
-		  if($(this).val()!=""){
-		  		$(this).parent().parent().find('label').hide();
-		   $(this).parent().before().text(file);
-
-		  } else {
-		      	$(this).parent().before().text(dflt);
-
-		  }	
-		});
-
+		
+        $('#block-views-quotes-block .view-content').slick(
+		{infinite: true,
+		arrows: true,
+		dots: false}); 
 
 		$('.view-header-image .view-content').slick(
-			{infinite: true,
-			arrows: false,
-			dots: true}); 
+		{infinite: true,
+		arrows: false,
+		dots: true}); 
 
 
 	 	var max1=$('.view-header-image .views-row').length;
@@ -34,9 +23,7 @@ $(function(){
 			$(current2).append('<div class="backbg"></div>');
 			$('.view-header-image .views-row-'+i+' .views-field-field-image-header .backbg').css('background-image', 'url(' + imgSrc1 + ')');  
  	    }
-
-	
-	
+ 	    
 		boxHeight(0.4);
 
 		function boxHeight(h)
