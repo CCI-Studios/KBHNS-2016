@@ -326,6 +326,9 @@ h1 {
       display: block;
       position: absolute; }
 
+.navbar-administration #banner-inner {
+  margin-top: 0px; }
+
 #main-wrapper,
 #footer {
   clear: both; }
@@ -1655,9 +1658,6 @@ h1 {
   #banner-inner {
     background-attachment: inherit; }
 
-  #banner-inner {
-    margin-top: 105px; }
-
   .page-node-42 #banner-inner,
   .page-node-53 #banner-inner {
     background: url(../images/team-bg.jpg) no-repeat center;
@@ -1701,9 +1701,6 @@ h1 {
   .navbar-fixed #navigation {
     position: relative;
     top: 0px; }
-
-  #banner-inner {
-    margin-top: 0px; }
 
   #block-system-main-menu {
     display: none;
