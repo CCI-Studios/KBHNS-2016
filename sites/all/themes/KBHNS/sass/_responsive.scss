@@ -69,9 +69,8 @@
 
 	#banner-inner
 	{
-		margin-top: 121px;
+		margin-top: 105px;
 	}
-
 
 	.page-node-42,
 	.page-node-53
@@ -141,7 +140,7 @@
 }
 
 
-@media screen and (min-width:981px)
+@media screen and (min-width:1281px)
 {
 	#block-system-main-menu
 	{
@@ -150,7 +149,7 @@
 }
 
 
-@media screen and (max-width:980px)
+@media screen and (max-width:1280px)
 {
 	#header > div li a
 	{
@@ -158,39 +157,18 @@
 		padding: 15px 9px 15px;
 	}
 
-	#block-views-header-image-block .views-field-body
+	.navbar-fixed 
 	{
-		font-size: 28px;
+		#navigation
+		{
+			position: relative;
+			top: 0px;
+		}
 	}
 
-	#block-views-client-industries-detail-block .view-content
+	#banner-inner
 	{
-		max-width: 667px;
-	}
-
-	#block-views-ps-sidebar-block,
-	#block-views-client-industries-titles-block
-	{	
-		width: 10%;
-
-		.icons
-		{
-			float: none;
-		}
-
-		li a
-		{
-			font-size: 0px;
-			text-align: center;
-			line-height: 76px;
-			padding:0px;
-			vertical-align: middle;
-
-			.icons
-			{
-				background-position:center;
-			}
-		}
+		margin-top: 0px;
 	}
 
 	#block-system-main-menu
@@ -198,7 +176,7 @@
 		display: none;
 		position: absolute;
 		right:0px;
-		top:80px;
+		top:70px;
 		width:250px;
 		background-color:white;
 
@@ -336,6 +314,11 @@
 		height: auto;
 	}
 
+	#header > div
+	{
+		padding:25px 10px 0px;
+	}
+
 	#block-block-5
 	{
 		display: block;
@@ -351,7 +334,47 @@
 			font-weight: bold;
 		}
 	}
+}
 
+
+@media screen and (max-width:980px)
+{
+	
+
+	#block-views-header-image-block .views-field-body
+	{
+		font-size: 28px;
+	}
+
+	#block-views-client-industries-detail-block .view-content
+	{
+		max-width: 667px;
+	}
+
+	#block-views-ps-sidebar-block,
+	#block-views-client-industries-titles-block
+	{	
+		width: 10%;
+
+		.icons
+		{
+			float: none;
+		}
+
+		li a
+		{
+			font-size: 0px;
+			text-align: center;
+			line-height: 76px;
+			padding:0px;
+			vertical-align: middle;
+
+			.icons
+			{
+				background-position:center;
+			}
+		}
+	}
 
 	#logo
 	{
@@ -369,12 +392,6 @@
 	#block-block-3
 	{
 		padding:50px 10px 0px;
-	}
-
-
-	#header > div
-	{
-		padding:25px 10px 0px;
 	}
 
 	.view-team-list

@@ -111,7 +111,7 @@
      
 
         $('#block-system-main-menu a[href*=#]').on('click',function (e) 
-        { 
+        {       
             var target = this.hash;
             var $target = $(target);
             $('html, body').stop().animate({

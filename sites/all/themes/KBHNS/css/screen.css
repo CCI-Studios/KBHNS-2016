@@ -265,9 +265,9 @@ h1 {
   z-index: 9;
   top: 0px; }
   #navigation #block-system-main-menu > .content > ul.menu > li > a:after {
-    bottom: 20px; }
+    bottom: 35px; }
   #navigation #block-system-main-menu > .content > ul.menu > li > a.hover:after {
-    bottom: 20px; }
+    bottom: 35px; }
   #navigation #block-system-main-menu li.expanded ul.menu {
     top: 109px; }
   #navigation #header > div {
@@ -310,7 +310,7 @@ h1 {
       z-index: 99;
       display: none;
       top: 83px;
-      text-align: center;
+      text-align: left;
       background: #f5f5f5; }
       #block-system-main-menu li.expanded ul.menu li {
         float: none;
@@ -1656,7 +1656,7 @@ h1 {
     background-attachment: inherit; }
 
   #banner-inner {
-    margin-top: 121px; }
+    margin-top: 105px; }
 
   .page-node-42 #banner-inner,
   .page-node-53 #banner-inner {
@@ -1690,42 +1690,26 @@ h1 {
   .view-team-list .views-row a span:first-child span {
     padding: 10px 0px;
     height: 20px; } }
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 1281px) {
   #block-system-main-menu {
     display: block !important; } }
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1280px) {
   #header > div li a {
     font-size: 14px;
     padding: 15px 9px 15px; }
 
-  #block-views-header-image-block .views-field-body {
-    font-size: 28px; }
+  .navbar-fixed #navigation {
+    position: relative;
+    top: 0px; }
 
-  #block-views-client-industries-detail-block .view-content {
-    max-width: 667px; }
-
-  #block-views-ps-sidebar-block,
-  #block-views-client-industries-titles-block {
-    width: 10%; }
-    #block-views-ps-sidebar-block .icons,
-    #block-views-client-industries-titles-block .icons {
-      float: none; }
-    #block-views-ps-sidebar-block li a,
-    #block-views-client-industries-titles-block li a {
-      font-size: 0px;
-      text-align: center;
-      line-height: 76px;
-      padding: 0px;
-      vertical-align: middle; }
-      #block-views-ps-sidebar-block li a .icons,
-      #block-views-client-industries-titles-block li a .icons {
-        background-position: center; }
+  #banner-inner {
+    margin-top: 0px; }
 
   #block-system-main-menu {
     display: none;
     position: absolute;
     right: 0px;
-    top: 80px;
+    top: 70px;
     width: 250px;
     background-color: white; }
     #block-system-main-menu #main-contact,
@@ -1795,6 +1779,9 @@ h1 {
   #header > div > div {
     height: auto; }
 
+  #header > div {
+    padding: 25px 10px 0px; }
+
   #block-block-5 {
     display: block;
     position: absolute;
@@ -1804,7 +1791,30 @@ h1 {
       text-transform: uppercase;
       font-size: 18px;
       color: #343434;
-      font-weight: bold; }
+      font-weight: bold; } }
+@media screen and (max-width: 980px) {
+  #block-views-header-image-block .views-field-body {
+    font-size: 28px; }
+
+  #block-views-client-industries-detail-block .view-content {
+    max-width: 667px; }
+
+  #block-views-ps-sidebar-block,
+  #block-views-client-industries-titles-block {
+    width: 10%; }
+    #block-views-ps-sidebar-block .icons,
+    #block-views-client-industries-titles-block .icons {
+      float: none; }
+    #block-views-ps-sidebar-block li a,
+    #block-views-client-industries-titles-block li a {
+      font-size: 0px;
+      text-align: center;
+      line-height: 76px;
+      padding: 0px;
+      vertical-align: middle; }
+      #block-views-ps-sidebar-block li a .icons,
+      #block-views-client-industries-titles-block li a .icons {
+        background-position: center; }
 
   #logo {
     margin-bottom: 10px; }
@@ -1815,9 +1825,6 @@ h1 {
 
   #block-block-3 {
     padding: 50px 10px 0px; }
-
-  #header > div {
-    padding: 25px 10px 0px; }
 
   .view-team-list {
     max-width: 630px;
