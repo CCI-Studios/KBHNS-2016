@@ -15,10 +15,10 @@
         { 
           var container =$('#block-block-13,#block-block-14');
           if (!container.is(e.target)
-                  && container.has(e.target).length === 0) 
-              {
-                  container.fadeOut();
-              }
+              && container.has(e.target).length === 0) 
+          {
+              container.fadeOut();
+          }
         });
 
         $('html.lt-ie10 [placeholder]').focus(function() {

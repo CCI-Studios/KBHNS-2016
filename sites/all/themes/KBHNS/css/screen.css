@@ -64,7 +64,7 @@ a {
   position: relative;
   background: white; }
   #header > div {
-    max-width: 1110px;
+    max-width: 1320px;
     margin: 0 auto;
     padding: 15px 10px 0px; }
 
@@ -109,11 +109,11 @@ h1 {
     float: left;
     padding-left: 20px;
     margin-left: 20px;
-    height: 41px;
+    height: 35px;
     background: url(../images/chat-icon.png) no-repeat left; }
     #top-menu #language-menu li a,
     #top-menu #language-menu span.locale-untranslated {
-      padding: 17px 5px;
+      padding: 12px 5px;
       line-height: 1em;
       display: block;
       text-decoration: none; }
@@ -123,7 +123,8 @@ h1 {
       border-right: 1px solid white;
       border-left: 1px solid white; }
     #top-menu #top-inner-menu li a {
-      padding: 10px 20px; }
+      padding: 10px 20px;
+      font-size: 12px; }
     #top-menu #top-inner-menu #linkedin {
       display: block;
       padding: 10px 0;
@@ -204,7 +205,7 @@ h1 {
 #logo {
   display: block;
   float: left;
-  width: 300px; }
+  width: 450px; }
   #logo img {
     width: 100%; }
 
@@ -268,7 +269,7 @@ h1 {
   #navigation #block-system-main-menu > .content > ul.menu > li > a.hover:after {
     bottom: 20px; }
   #navigation #block-system-main-menu li.expanded ul.menu {
-    top: 70px; }
+    top: 109px; }
   #navigation #header > div {
     padding: 15px 10px 0; }
 
@@ -276,7 +277,7 @@ h1 {
   float: right;
   position: static; }
   #block-system-main-menu > .content > ul.menu > li > a {
-    padding: 20px 20px 27px; }
+    padding: 25px 20px 48px; }
     #block-system-main-menu > .content > ul.menu > li > a#main-services:after, #block-system-main-menu > .content > ul.menu > li > a#main-services:after, #block-system-main-menu > .content > ul.menu > li > a#main-industries:after, #block-system-main-menu > .content > ul.menu > li > a#client-industries:after, #block-system-main-menu > .content > ul.menu > li > a#main-services-fr:after, #block-system-main-menu > .content > ul.menu > li > a:after {
       content: "";
       position: absolute;
@@ -309,19 +310,16 @@ h1 {
       z-index: 99;
       display: none;
       top: 83px;
-      width: 100%;
       text-align: center;
-      background: #f5f5f5;
-      left: 0px; }
+      background: #f5f5f5; }
       #block-system-main-menu li.expanded ul.menu li {
-        display: inline-block;
         float: none;
         border-bottom: 1px solid white; }
         #block-system-main-menu li.expanded ul.menu li:before {
           display: none; }
         #block-system-main-menu li.expanded ul.menu li a {
           color: #343434;
-          padding: 10px 30px 10px 10px; }
+          padding: 10px 30px; }
           #block-system-main-menu li.expanded ul.menu li a:hover {
             color: #008b7f; }
     #block-system-main-menu li.expanded:hover ul.menu {
@@ -701,16 +699,6 @@ h1 {
 .webform-client-form-52 .form-actions {
   width: 178px; }
 
-/*input#edit-submitted-upload-resume-upload-button,
-input#edit-submitted-cover-letter-upload-button
-{
-	
-	float: right;
-	border: 0px;
-	padding: 15px 10px;
-	background: white;
-	
-}*/
 .webform-client-form .webform-component-textfield,
 .webform-client-form .webform-component-email {
   float: left;
@@ -760,24 +748,6 @@ input#edit-submitted-cover-letter-upload-button
 .webform-component--upload_files table {
   width: 95%; }
 
-/*#edit-submitted-upload-resume-ajax-wrapper,
-#edit-submitted-cover-letter-ajax-wrapper,
-#edit-submitted-resume-ajax-wrapper
-{
-	clear: left;
-	position: relative;
-
-
-	label
-	{
-		position: absolute;
-		top: 16px;
-		left: 10px;
-		color:#9b9b9b; 
-		font-weight: normal;
-		font-size: 16px;
-	}
-}*/
 .browse-button {
   position: absolute;
   right: 50px;
@@ -1047,7 +1017,7 @@ input#edit-submitted-cover-letter-upload-button
   #block-views-client-industries-detail-block .field-icons {
     display: none; }
   #block-views-client-industries-detail-block .views-row {
-    background: rgba(0, 93, 85, 0.8);
+    background: #008b7f;
     padding: 10px 20px;
     width: 280px;
     height: 280px;
@@ -1220,8 +1190,9 @@ input#edit-submitted-cover-letter-upload-button
   right: 0px; }
 .view-about-page-sections .body {
   width: 50%;
-  float: left;
-  padding-top: 40px; }
+  float: left; }
+.view-about-page-sections .views-field-title {
+  margin-bottom: 40px; }
 .view-about-page-sections .body2 {
   width: 50%;
   float: right;
@@ -1623,6 +1594,27 @@ input#edit-submitted-cover-letter-upload-button
     font-weight: bold;
     padding-bottom: 0px;
     color: white; }
+
+#block-views-organizations-block h2 {
+  text-align: center; }
+#block-views-organizations-block .views-field-field-image-org {
+  float: left;
+  width: 24%; }
+  #block-views-organizations-block .views-field-field-image-org .field-content {
+    line-height: 224px;
+    max-width: 190px;
+    vertical-align: middle; }
+  #block-views-organizations-block .views-field-field-image-org img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle; }
+#block-views-organizations-block .views-row {
+  clear: both;
+  overflow: hidden;
+  margin: 20px 0px; }
+#block-views-organizations-block .views-field-body {
+  width: 70%;
+  float: right; }
 
 @media screen and (max-width: 1080px) {
   #block-block-12 .content,

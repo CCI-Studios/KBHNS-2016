@@ -375,7 +375,7 @@
 
 	.views-row
 	{
-		background:rgba(0,93,85,0.8);
+		background: #008b7f;
 		padding:10px 20px;
 		width: 280px;
 		height: 280px;
@@ -653,7 +653,11 @@
 	{
 		width: 50%;
 		float: left;
-		padding-top: 40px;
+	}
+
+	.views-field-title
+	{
+		margin-bottom: 40px;
 	}
 
 
@@ -1196,5 +1200,46 @@
 		font-weight: bold;
 		padding-bottom: 0px;
 		color:white;
+	}
+}
+
+
+#block-views-organizations-block
+{	
+	h2
+	{
+		text-align: center;
+	}
+
+	.views-field-field-image-org
+	{	
+		float: left;
+		width: 24%;
+
+		.field-content
+		{
+			line-height: 224px;
+			max-width: 190px;
+			vertical-align: middle;
+		}
+		img{
+
+			width: 100%;
+			height: auto;
+			vertical-align: middle;
+		}
+	}
+
+	.views-row
+	{
+		clear: both;
+		overflow: hidden;
+		margin: 20px 0px;
+	}
+
+	.views-field-body
+	{	
+		width: 70%;
+		float: right;
 	}
 }

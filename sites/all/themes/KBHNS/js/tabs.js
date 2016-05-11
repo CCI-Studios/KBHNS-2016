@@ -45,10 +45,6 @@
         $about_title.eq(1).find('a').attr("href", "#history");    
         $about_title.eq(2).find('a').attr("href", "#community");    
           
-        $about_section=$(".view-about-page-sections .views-row")
-        $about_section.eq(0).attr("id", "mission"); 
-        $about_section.eq(1).attr("id", "history");    
-        $about_section.eq(2).attr("id", "community");   
           
         $("#block-views-client-industries-detail-block .view-content .content").each(function (index) {
             

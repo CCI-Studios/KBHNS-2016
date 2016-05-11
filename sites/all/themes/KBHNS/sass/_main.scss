@@ -78,7 +78,7 @@ a
 
 	&> div
 	{	
-		max-width: 1110px;
+		max-width: 1320px;
 		margin: 0 auto;
 		padding: 15px 10px 0px;
 	}
@@ -152,13 +152,13 @@ h1
 		float: left;
 		padding-left:20px;
 		margin-left: 20px;
-		height: 41px;
+		height: 35px;
 		background:url(../images/chat-icon.png) no-repeat left;
 
 		li a,
 		span.locale-untranslated
 		{
-			padding: 17px 5px;
+			padding: 12px 5px;
 			line-height: 1em;
 			display: block;
 			text-decoration:none;
@@ -178,6 +178,7 @@ h1
 		li a
 		{
 			padding:10px 20px;
+			font-size: 12px;
 		}
 
 		#linkedin
@@ -268,7 +269,7 @@ h1
 {
 	display: block;
 	float: left;
-	width: 300px;
+	width: 450px;
 
 	img
 	{
@@ -372,7 +373,7 @@ h1
 
 		li.expanded ul.menu
 		{
-			top: 70px;
+			top: 109px;
 		}
 	}
 
@@ -389,7 +390,7 @@ h1
 
 	& > .content > ul.menu > li > a
 	{	
-		padding: 20px 20px 27px;
+		padding: 25px 20px 48px;
 
 		&#main-services:after,
 		&#main-services:after,
@@ -453,13 +454,11 @@ h1
 			z-index: 99;
 			display: none;
 			top:83px;
-			width: 100%;
 			text-align: center;
 			background:#f5f5f5;
-			left: 0px;
+
 			li
 			{	
-				display: inline-block;
 				float: none;
 				border-bottom: 1px solid white;
 
@@ -471,7 +470,7 @@ h1
 				a
 				{
 					color:$black;
-					padding:10px 30px 10px 10px;
+					padding:10px 30px;
 
 					&:hover
 					{
@@ -1033,7 +1032,6 @@ h1
 			margin-top: 26px;
 			position: relative;
 		}
-
 
 		&:hover:after
 		{	
