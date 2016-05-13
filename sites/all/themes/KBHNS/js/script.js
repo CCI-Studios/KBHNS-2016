@@ -11,9 +11,20 @@
           $('#block-block-13,#block-block-14').addClass('overlay');  
         }
 
+        var ob = "#block-system-main-menu li.expanded";
+
+        $(ob).bind(
+                "mouseenter mouseleave",
+                function( event ){
+                    
+                    if($(window).width()>1280)
+                    $(this).find('> ul.menu').slideToggle();
+                }
+        );
+
         $(document).mouseup(function (e)
         { 
-          var container =$('#block-block-13,#block-block-14');
+          var container = $('#block-block-13,#block-block-14');
           if (!container.is(e.target)
               && container.has(e.target).length === 0) 
           {

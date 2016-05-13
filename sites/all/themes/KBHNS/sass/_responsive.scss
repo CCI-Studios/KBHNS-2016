@@ -234,16 +234,11 @@
 
 		li.expanded 
 		{	
-
-			&:hover ul.menu
-			{
-				position:relative;
-			}
-
 			ul.menu 
 			{
 				z-index: 99;
-				display: block;
+				display: block!important;
+				position:relative;
 				top:auto;
 				background: inherit;
 				text-align: right;
