@@ -1164,13 +1164,20 @@ h1 {
 
 .view-about-page-sections .sidephoto,
 .view-about-page-sections .sidephoto2 {
+  width: 400px;
   position: absolute; }
+  .view-about-page-sections .sidephoto img,
+  .view-about-page-sections .sidephoto2 img {
+    width: 100%; }
+.view-about-page-sections .leftside {
+  width: 50%; }
 .view-about-page-sections .block1,
 .view-about-page-sections .block2 {
   overflow: hidden;
   height: 275px;
   padding: 50px 0px;
-  display: table; }
+  display: table;
+  position: relative; }
   .view-about-page-sections .block1 p,
   .view-about-page-sections .block2 p {
     line-height: 1.8em; }
@@ -1182,7 +1189,6 @@ h1 {
 .view-about-page-sections .sidephoto {
   right: 0px; }
 .view-about-page-sections .body {
-  width: 50%;
   float: left; }
 .view-about-page-sections .views-field-title {
   margin-bottom: 40px; }
@@ -1190,7 +1196,6 @@ h1 {
   width: 50%;
   float: right;
   display: table-cell;
-  padding-top: 20px;
   vertical-align: middle; }
 .view-about-page-sections .views-row-3 .body2 {
   width: 100%;
@@ -1934,8 +1939,10 @@ h1 {
   .view-about-page-sections .body,
   .view-about-page-sections .body2 {
     width: 100%; }
-  .view-about-page-sections .leftside .views-field-title {
-    padding-bottom: 20px; }
+  .view-about-page-sections .leftside {
+    width: auto; }
+    .view-about-page-sections .leftside .views-field-title {
+      padding-bottom: 20px; }
   .view-about-page-sections .sidephoto2,
   .view-about-page-sections .sidephoto {
     width: 300px;

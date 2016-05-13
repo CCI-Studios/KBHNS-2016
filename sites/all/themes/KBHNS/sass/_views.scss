@@ -613,8 +613,19 @@
 {	
 	.sidephoto,
 	.sidephoto2
-	{
+	{	
+		width: 400px;
 		position:absolute;
+
+		img
+		{
+			width: 100%;
+		}
+	}
+
+	.leftside
+	{
+		width: 50%;
 	}
 
 	.block1,
@@ -624,6 +635,7 @@
 		height: 275px;
 		padding:50px 0px;
 		display: table;
+		position: relative;
 
 		p
 		{
@@ -649,7 +661,6 @@
 
 	.body
 	{
-		width: 50%;
 		float: left;
 	}
 
@@ -664,7 +675,6 @@
 		width: 50%;
 		float: right;
 		display: table-cell;
-		padding-top:20px;
 		vertical-align: middle;
 	}
 

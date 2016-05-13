@@ -21,16 +21,16 @@
         });
 
 
-     $(".view-ps-sidebar .item-list li a, .view-client-industries-titles .item-list a, .view-profession-type .item-list a").each(function (index) {
-        $(this).attr("href", "#spec" + index.toString());    
-        var textValue = $(this).text();
-        textValue =textValue.split(' ').join('_');
-        $(this).addClass(textValue);   
-        $(this).parent().addClass('va-slice');
+        $(".view-ps-sidebar .item-list li a, .view-client-industries-titles .item-list a, .view-profession-type .item-list a").each(function (index) {
+            $(this).attr("href", "#spec" + index.toString());    
+            var textValue = $(this).text();
+            textValue =textValue.split(' ').join('_');
+            $(this).addClass(textValue);   
+            $(this).parent().addClass('va-slice');
 
         });
 
-      $('.view-profession-type .item-list a').each(function (index) {
+        $('.view-profession-type .item-list a').each(function (index) {
 
         var textValue = $(this).text();
         console.log(textValue);
@@ -54,7 +54,7 @@
             $(this).addClass(textValue);  
         })
 
-          $(".view-team-list .view-content .container").each(function (index) {
+        $(".view-team-list .view-content .container").each(function (index) {
             console.log(index);
             var textValue = $(this).find('h3').text();
             textValue =textValue.split(' ').join('_');
