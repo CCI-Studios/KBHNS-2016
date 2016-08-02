@@ -14,12 +14,12 @@
         var ob = "#block-system-main-menu li.expanded";
 
         $(ob).bind(
-                "mouseenter mouseleave",
-                function( event ){
-                    
-                    if($(window).width()>1280)
-                    $(this).find('> ul.menu').slideToggle();
-                }
+          "mouseenter mouseleave",
+          function( event ){
+              
+              if($(window).width()>1280)
+              $(this).find('> ul.menu').slideToggle();
+          }
         );
 
         $(document).mouseup(function (e)
@@ -116,7 +116,7 @@
             var $target = $(target);
 
             $('html, body').stop().animate({
-              'scrollTop': $target.offset().top-180
+              'scrollTop': $target.offset().top-220
             }, 150);
          }  
      
@@ -126,7 +126,7 @@
             var target = this.hash;
             var $target = $(target);
             $('html, body').stop().animate({
-                'scrollTop': $target.offset().top-180
+                'scrollTop': $target.offset().top-220
             }, 400, 'swing', function () {
                 window.location.hash = target;
             });

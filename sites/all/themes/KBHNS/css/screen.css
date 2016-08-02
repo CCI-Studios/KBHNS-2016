@@ -1182,7 +1182,6 @@ h1 {
   .view-about-page-sections .block2 p {
     line-height: 1.8em; }
 .view-about-page-sections .block1 {
-  border-bottom: 1px solid #ccc;
   padding-top: 0px; }
 .view-about-page-sections .sidephoto2 {
   left: 0px; }
@@ -1197,6 +1196,11 @@ h1 {
   float: right;
   display: table-cell;
   vertical-align: middle; }
+.view-about-page-sections .block2 {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0px;
+  padding-top: 0px;
+  margin-bottom: 50px; }
 .view-about-page-sections .views-row-3 .body2 {
   width: 100%;
   display: block;
@@ -1267,7 +1271,7 @@ h1 {
 .view-team-list.close {
   display: none; }
 .view-team-list #Partners .views-field-body,
-.view-team-list #les_partenaires .views-field-body {
+.view-team-list #Associe .views-field-body {
   display: none; }
 .view-team-list .views-row {
   display: inline-block;
@@ -1314,10 +1318,10 @@ h1 {
 .view-team-list .person-name {
   color: #008b7f; }
 .view-team-list #Partners .contact-info,
-.view-team-list #les_partenaires .contact-info {
+.view-team-list #Associe .contact-info {
   display: none; }
 .view-team-list #Partners .view-more,
-.view-team-list #les_partenaires .view-more {
+.view-team-list #Associe .view-more {
   display: none; }
 .view-team-list #Consultants a + div,
 .view-team-list #Consultation_fr a + div,
@@ -1326,7 +1330,7 @@ h1 {
 .view-team-list #Support_Staff a + div,
 .view-team-list #Professionels a + div,
 .view-team-list #comptables a + div,
-.view-team-list #Le_personnel_de_soutien a + div {
+.view-team-list #soutien a + div {
   padding-top: 0px;
   float: left;
   width: 80%; }
@@ -1337,7 +1341,7 @@ h1 {
 .view-team-list #Support_Staff .field-content > a,
 .view-team-list #Professionels .field-content > a,
 .view-team-list #comptables .field-content > a,
-.view-team-list #Le_personnel_de_soutien .field-content > a {
+.view-team-list #soutien .field-content > a {
   float: left;
   padding-right: 20px; }
   .view-team-list #Consultants .field-content > a span:first-child:hover span,
@@ -1347,7 +1351,7 @@ h1 {
   .view-team-list #Support_Staff .field-content > a span:first-child:hover span,
   .view-team-list #Professionels .field-content > a span:first-child:hover span,
   .view-team-list #comptables .field-content > a span:first-child:hover span,
-  .view-team-list #Le_personnel_de_soutien .field-content > a span:first-child:hover span {
+  .view-team-list #soutien .field-content > a span:first-child:hover span {
     display: none; }
   .view-team-list #Consultants .field-content > a span:first-child + span,
   .view-team-list #Consultation_fr .field-content > a span:first-child + span,
@@ -1356,7 +1360,7 @@ h1 {
   .view-team-list #Support_Staff .field-content > a span:first-child + span,
   .view-team-list #Professionels .field-content > a span:first-child + span,
   .view-team-list #comptables .field-content > a span:first-child + span,
-  .view-team-list #Le_personnel_de_soutien .field-content > a span:first-child + span {
+  .view-team-list #soutien .field-content > a span:first-child + span {
     display: none; }
   .view-team-list #Consultants .field-content > a span,
   .view-team-list #Consultation_fr .field-content > a span,
@@ -1365,7 +1369,7 @@ h1 {
   .view-team-list #Support_Staff .field-content > a span,
   .view-team-list #Professionels .field-content > a span,
   .view-team-list #comptables .field-content > a span,
-  .view-team-list #Le_personnel_de_soutien .field-content > a span {
+  .view-team-list #soutien .field-content > a span {
     width: 150px;
     border: 1px solid #ccc; }
     .view-team-list #Consultants .field-content > a span span,
@@ -1375,7 +1379,7 @@ h1 {
     .view-team-list #Support_Staff .field-content > a span span,
     .view-team-list #Professionels .field-content > a span span,
     .view-team-list #comptables .field-content > a span span,
-    .view-team-list #Le_personnel_de_soutien .field-content > a span span {
+    .view-team-list #soutien .field-content > a span span {
       display: none; }
     .view-team-list #Consultants .field-content > a span img,
     .view-team-list #Consultation_fr .field-content > a span img,
@@ -1384,7 +1388,7 @@ h1 {
     .view-team-list #Support_Staff .field-content > a span img,
     .view-team-list #Professionels .field-content > a span img,
     .view-team-list #comptables .field-content > a span img,
-    .view-team-list #Le_personnel_de_soutien .field-content > a span img {
+    .view-team-list #soutien .field-content > a span img {
       width: 100%; }
 .view-team-list #Consultants .views-field-body,
 .view-team-list #Consultation_fr .views-field-body,
@@ -1393,7 +1397,7 @@ h1 {
 .view-team-list #Support_Staff .views-field-body,
 .view-team-list #Professionels .views-field-body,
 .view-team-list #comptables .views-field-body,
-.view-team-list #Le_personnel_de_soutien .views-field-body {
+.view-team-list #soutien .views-field-body {
   clear: both;
   font-weight: normal; }
   .view-team-list #Consultants .views-field-body .body,
@@ -1403,7 +1407,7 @@ h1 {
   .view-team-list #Support_Staff .views-field-body .body,
   .view-team-list #Professionels .views-field-body .body,
   .view-team-list #comptables .views-field-body .body,
-  .view-team-list #Le_personnel_de_soutien .views-field-body .body {
+  .view-team-list #soutien .views-field-body .body {
     display: none; }
 .view-team-list #Consultants .contact-info,
 .view-team-list #Consultants .view-more,
@@ -1419,8 +1423,8 @@ h1 {
 .view-team-list #Professionels .view-more,
 .view-team-list #comptables .contact-info,
 .view-team-list #comptables .view-more,
-.view-team-list #Le_personnel_de_soutien .contact-info,
-.view-team-list #Le_personnel_de_soutien .view-more {
+.view-team-list #soutien .contact-info,
+.view-team-list #soutien .view-more {
   clear: left;
   float: none; }
 .view-team-list #Consultants .view-more a,
@@ -1430,7 +1434,7 @@ h1 {
 .view-team-list #Support_Staff .view-more a,
 .view-team-list #Professionels .view-more a,
 .view-team-list #comptables .view-more a,
-.view-team-list #Le_personnel_de_soutien .view-more a {
+.view-team-list #soutien .view-more a {
   font-weight: bold;
   display: block;
   padding: 5px 0px; }
@@ -1441,7 +1445,7 @@ h1 {
 .view-team-list #Support_Staff .view-more.open a:first-child,
 .view-team-list #Professionels .view-more.open a:first-child,
 .view-team-list #comptables .view-more.open a:first-child,
-.view-team-list #Le_personnel_de_soutien .view-more.open a:first-child {
+.view-team-list #soutien .view-more.open a:first-child {
   display: none; }
 .view-team-list #Consultants .view-more.open a:first-child + a,
 .view-team-list #Consultation_fr .view-more.open a:first-child + a,
@@ -1450,7 +1454,7 @@ h1 {
 .view-team-list #Support_Staff .view-more.open a:first-child + a,
 .view-team-list #Professionels .view-more.open a:first-child + a,
 .view-team-list #comptables .view-more.open a:first-child + a,
-.view-team-list #Le_personnel_de_soutien .view-more.open a:first-child + a {
+.view-team-list #soutien .view-more.open a:first-child + a {
   display: block; }
 .view-team-list #Consultants .view-more a:first-child + a,
 .view-team-list #Consultation_fr .view-more a:first-child + a,
@@ -1459,7 +1463,7 @@ h1 {
 .view-team-list #Support_Staff .view-more a:first-child + a,
 .view-team-list #Professionels .view-more a:first-child + a,
 .view-team-list #comptables .view-more a:first-child + a,
-.view-team-list #Le_personnel_de_soutien .view-more a:first-child + a {
+.view-team-list #soutien .view-more a:first-child + a {
   display: none; }
 .view-team-list #Consultants .views-row,
 .view-team-list #Consultation_fr .views-row,
@@ -1468,7 +1472,7 @@ h1 {
 .view-team-list #Support_Staff .views-row,
 .view-team-list #Professionels .views-row,
 .view-team-list #comptables .views-row,
-.view-team-list #Le_personnel_de_soutien .views-row {
+.view-team-list #soutien .views-row {
   display: block;
   overflow: hidden;
   text-align: left;

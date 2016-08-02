@@ -645,7 +645,6 @@
 
 	.block1
 	{
-		border-bottom:1px solid #ccc;
 		padding-top:0px;
 	}
 
@@ -676,6 +675,14 @@
 		float: right;
 		display: table-cell;
 		vertical-align: middle;
+	}
+
+	.block2
+	{
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 0px;
+		padding-top: 0px;
+		margin-bottom: 50px;
 	}
 
 	.views-row-3 
@@ -796,7 +803,7 @@
 	}
 
 	#Partners,
-	#les_partenaires
+	#Associe
 	{	
 		 .views-field-body
 		 {
@@ -886,7 +893,7 @@
 	}
 
 	#Partners,
-	#les_partenaires
+	#Associe
 	{
 		.contact-info
 		{
@@ -906,7 +913,7 @@
 	#Support_Staff,
 	#Professionels,
 	#comptables,
-	#Le_personnel_de_soutien
+	#soutien
 	{
 		a + div
 		{

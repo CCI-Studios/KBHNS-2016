@@ -3,7 +3,7 @@
 $(function(){
 
 	//adding underscore to the href value
-		$('.view-team-list #Partners .views-row,.view-team-list #les_partenaires .views-row, .view-client-industries-detail .views-row,.view-current-opportunities .views-row').each(function(index){
+		$('.view-team-list #Partners .views-row,.view-team-list #Associe .views-row, .view-client-industries-detail .views-row,.view-current-opportunities .views-row').each(function(index){
 
 				var textValue = $(this).find('a').attr("href");  
 				textValue=textValue.replace(/,/g, "");     
@@ -19,7 +19,7 @@ $(function(){
 		});
 			
 
-		$('.view-team-list #Partners .views-row a, .view-team-list #les_partenaires .views-row a').click(function(e){
+		$('.view-team-list #Partners .views-row a, .view-team-list #Associe .views-row a').click(function(e){
 
 			var textValue = $(this).attr("href");    
 			$(this).parents('.view-team-list').hide();

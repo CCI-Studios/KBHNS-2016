@@ -35,6 +35,14 @@
         var textValue = $(this).text();
         console.log(textValue);
         textValue =textValue.split(' ').join('_');
+        if(textValue == "Associé"){
+
+            textValue = "Associe";
+        }
+        if($('body.i18n-fr').length > 0 && textValue == "Consultants")
+        {
+            textValue = "Consultation_fr";
+        }
         $(this).attr("href", '#'+textValue);    
         $(this).parent().addClass('va-slice');
 
@@ -58,6 +66,14 @@
             console.log(index);
             var textValue = $(this).find('h3').text();
             textValue =textValue.split(' ').join('_');
+            if(textValue == "Associé"){
+
+                textValue = "Associe";
+            }
+            if($('body.i18n-fr').length > 0 && textValue == "Consultants")
+            {
+                textValue = "Consultation_fr";
+            }
             $(this).attr("id", textValue);
             var textValue = $(this).find('.views-field-title').text();
             textValue =textValue.split(' ').join('_');
