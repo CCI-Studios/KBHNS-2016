@@ -333,6 +333,7 @@ h1 {
   padding: 70px 10px;
   background-size: cover;
   z-index: 9;
+  background-attachment: fixed;
   box-shadow: 15px 0px 25px rgba(0, 0, 0, 0.2); }
   #block-block-1 p,
   #block-block-12 p {
@@ -485,15 +486,17 @@ h1 {
   height: auto; }
 
 #banner-inner {
-  background: url(../images/about1.jpg) no-repeat center;
+  background: url(../images/about1.jpg) no-repeat center fixed;
   background-size: cover;
+  background-attachment: fixed;
   height: 400px;
   width: 100%;
-  margin-top: 136px; }
+  margin-top: 136px;
+  background-position: center -100px; }
 
 .page-node-42 #banner-inner,
 .page-node-53 #banner-inner {
-  background: url(../images/team-bg.jpg) no-repeat center;
+  background: url(../images/team-bg.jpg) no-repeat center fixed;
   background-size: cover; }
 
 #node-49,
@@ -502,12 +505,12 @@ h1 {
 
 .page-node-49 #banner-inner,
 .page-node-55 #banner-inner {
-  background: url(../images/career-bg.jpg) no-repeat center;
+  background: url(../images/career-bg.jpg) no-repeat center fixed;
   background-size: cover; }
 
 .page-node-51 #banner-inner,
 .page-node-54 #banner-inner {
-  background: url(../images/contact-bg.jpg) no-repeat center;
+  background: url(../images/contact-bg.jpg) no-repeat center fixed;
   background-size: cover; }
 
 #content {
@@ -752,7 +755,8 @@ h1 {
 
 .backbg {
   background-size: cover;
-  box-shadow: 0px 1000px 0px rgba(0, 0, 0, 0.3) inset; }
+  box-shadow: 0px 1000px 0px rgba(0, 0, 0, 0.3) inset;
+  background-attachment: fixed; }
 
 #page-wrapper {
   overflow: hidden;
@@ -1044,6 +1048,7 @@ h1 {
 #block-block-11 {
   background: url(../images/quote2.jpg) no-repeat;
   background-size: cover;
+  background-attachment: fixed;
   padding: 120px 1px;
   text-align: center;
   border-top: 2px solid #008b7f;
