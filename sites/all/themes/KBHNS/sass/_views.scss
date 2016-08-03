@@ -618,103 +618,99 @@
 
 .view-about-page-sections 
 {	
-	.sidephoto,
-	.sidephoto2
-	{	
-		width: 400px;
-		position:absolute;
-
-		img
-		{
-			width: 100%;
-		}
-	}
-
-	.leftside
+	.views-row
 	{
-		width: 50%;
+		padding-bottom: 50px;
+		margin-bottom: 50px;
+		border-bottom: 1px solid #cccccc;
 	}
-
-	.block1,
-	.block2
+	.views-row-last
 	{
-		overflow: hidden;
-		height: 275px;
-		padding:50px 0px;
-		display: table;
-		position: relative;
-
-		p
-		{
-			line-height: 1.8em;
-		}
+		padding-bottom: 0;
+		margin-bottom: 0;
+		border-bottom: 0;
 	}
-
-	.block1
-	{
-		padding-top:0px;
-	}
-
-	.sidephoto2
-	{
-		left:0px;
-	}
-
-	.sidephoto
-	{
-		right:0px;
-	}
-
-	.body
-	{
-		float: left;
-	}
-
 	.views-field-title
 	{
 		margin-bottom: 40px;
 	}
-
-
-	.body2
+	.layout--center
 	{
-		width: 50%;
-		float: right;
-		display: table-cell;
-		vertical-align: middle;
-	}
-
-	.block2
-	{
-		border-bottom: 1px solid #ccc;
-		padding-bottom: 0px;
-		padding-top: 0px;
-		margin-bottom: 50px;
-	}
-
-	.views-row-3 
-	{	
-		.body2
-		{
-			width:100%;
-			display: block;
-			padding:50px 0px;
-		}
-
-		h3
-		{
-			color:$seagreen;
-		}
+		max-width: 540px;
+		margin: 0 auto;
 		
-		.block2
+		.views-field-title
 		{
-			padding: 40px 0px;
+			text-align: center;
+		}
+		.views-field-body
+		{
+			margin-bottom: 20px;
+		}
+		.views-field-field-image1
+		{
+			text-align: center;
+			
+			img
+			{
+				display: inline-block;
+				width: 100%;
+				height: auto;
+				max-width: 400px;
+			}
 		}
 	}
-
-	.views-row-3
+	.layout--image_right
 	{
-		width:100%;
+		.views-field-body
+		{
+			float: left;
+			width: 55%;
+		}
+		.views-field-field-image1
+		{
+			float: right;
+			width: 40%;
+			
+			img
+			{
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+		&:after
+		{
+			content: "";
+			display: block;
+			clear: both;
+		}
+	}
+	.layout--image_left
+	{
+		.views-field-body
+		{
+			float: right;
+			width: 55%;
+		}
+		.views-field-field-image1
+		{
+			float: left;
+			width: 40%;
+			
+			img
+			{
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+		&:after
+		{
+			content: "";
+			display: block;
+			clear: both;
+		}
 	}
 }
 

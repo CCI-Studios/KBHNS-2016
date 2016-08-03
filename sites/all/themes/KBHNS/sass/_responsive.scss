@@ -102,36 +102,6 @@
 		}
 	}
 
-	.view-about-page-sections
-	{
-		.block1,
-		.block2
-		{
-			height: auto;
-		}
-	}
-
-	.view-about-page-sections 
-	{	
-		.body,
-		.body2
-		{
-			padding-top:0px;
-
-		}
-
-		.sidephoto2,
-		.sidephoto
-		{
-			width: 360px;
-
-			img
-			{
-				width: 100%;
-			}
-		}
-	}
-
 	.view-team-list .views-row a span:first-child span
 	{
 		padding: 10px 0px;
@@ -560,38 +530,29 @@
 
 	.view-about-page-sections 
 	{	
-		.body,
-		.body2
+		.layout--image_right,
+		.layout--image_left
 		{
-			width: 100%;
-		}
-
-		.leftside
-		{	
-			width: auto;
-			
-			.views-field-title
+			.views-field-body
 			{
-				padding-bottom:20px;
+				float: none;
+				width: auto;
+				margin-bottom: 20px;
 			}
-		}
-
-		.sidephoto2,
-		.sidephoto
-		{
-			width: 300px;
-			position: relative;
-			padding-top:20px;
-
-			img
+			.views-field-field-image1
 			{
-				width: 100%;
+				float: none;
+				width: auto;
+				text-align: center;
+				
+				img
+				{
+					display: inline-block;
+					width: 100%;
+					height: auto;
+					max-width: 400px;
+				}
 			}
-		}
-
-		.body2
-		{
-			display: block;
 		}
 	}
 
