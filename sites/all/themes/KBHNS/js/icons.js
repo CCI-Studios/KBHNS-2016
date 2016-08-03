@@ -31,9 +31,7 @@
         {
               $(".view-professional-servcies .field-icons").each(function(){
                   var at = $(this).parent('.content').attr('id');
-                  console.log(at);
                   var icon =  $(this).text(); 
-                  console.log(icon);
 
                   if (icon)
                   {     
@@ -49,9 +47,7 @@
         {
           $(".view-client-industries-detail .field-icons").each(function(){
             var at = $(this).parent('.content').attr('id');
-            console.log(at);
             var icon =  $(this).text(); 
-            console.log(icon);
 
             if (icon)
             {   
