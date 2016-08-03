@@ -875,7 +875,7 @@
 
 		span img 
 		{
-		  max-width: 100%;
+		  width: 100%;
 		  margin-bottom: -5px;
 		  -moz-transition: all 0.3s;
 		  -webkit-transition: all 0.3s;
@@ -898,6 +898,10 @@
 	#Partners,
 	#Associe
 	{
+		.views-row
+		{
+			padding-right: 21px;
+		}
 		.contact-info
 		{
 			display: none;
@@ -906,6 +910,11 @@
 		.view-more
 		{
 			display: none;
+		}
+		
+		.field-content>a span:first-child
+		{
+			border: 1px solid #cccccc;
 		}
 	}
 
