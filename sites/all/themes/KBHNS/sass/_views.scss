@@ -1232,7 +1232,34 @@
 
 
 #block-views-organizations-block
-{	
+{
+	padding: 0 30px;
+	position: relative;
+	
+	.slick-prev,
+	.slick-next
+	{
+		background: url(../images/icons/left-arrow.png) no-repeat center center;
+		border: 0;
+		-webkit-appearance: none;
+		appearance: none;
+		font-size: 0;
+		display: block;
+		position: absolute;
+		left: -30px;
+		top: 50%;
+		margin-top: -15px;
+		height: 30px;
+		width: 30px;
+		cursor: pointer;
+	}
+	.slick-next
+	{
+		background-image: url(../images/icons/right-arrow.png);
+		left: auto;
+		right: -30px;
+	}
+	
 	h2
 	{
 		text-align: center;
@@ -1259,9 +1286,10 @@
 
 	.views-row
 	{
-		clear: both;
 		overflow: hidden;
 		margin: 20px 0px;
+		outline: none;
+		padding: 0 20px;
 	}
 
 	.views-field-body

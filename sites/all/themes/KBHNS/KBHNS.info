@@ -13,6 +13,7 @@ scripts[] = js/team.js
 scripts[] = js/slick/slick.js
 scripts[] = js/script.js
 scripts[] = js/client-industries.js
+scripts[] = js/orgs.js
 
 
 stylesheets[all][] = js/slick/slick.css
