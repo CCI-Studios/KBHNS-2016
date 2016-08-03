@@ -21,10 +21,12 @@ $(function(){
 
 		$('.view-team-list #Partners .views-row a, .view-team-list #Associe .views-row a').click(function(e){
 
-			var textValue = $(this).attr("href");    
-			$(this).parents('.view-team-list').hide();
-			$('.view-team').fadeIn();		
-			$('.view-team').find(textValue).parents('.team-container, .views-row').fadeIn();
+			$('.view-team-list').hide();
+			$('.view-team').show();	
+			var rowNum = $(this).closest(".views-row").index()-1;
+			console.log(rowNum);
+			$('.view-team .team-container:first-child').show();
+			$('.view-team .views-row:eq('+rowNum+')').fadeIn();
 
 			if($(window).width()<767)
 			{
@@ -43,9 +45,9 @@ $(function(){
 
 		$('.view-team .close-icon').click(function(e){
 
-			var textValue = $(this).parents('.views-row a').attr("href")  
+			var textValue = $(this).closest('.views-row a').attr("href")  
 			$('.view-team-list').fadeIn();
-			$('.view-team-list').find(textValue).parents('.container').hide();
+			$('.view-team-list').find(textValue).closest('.container').hide();
 			$(this).parents('.view-team').hide();
 			$(this).parents('.view-team').find('.views-row').hide();
 			e.preventDefault();

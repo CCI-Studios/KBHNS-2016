@@ -33,7 +33,6 @@
         $('.view-profession-type .item-list a').each(function (index) {
 
         var textValue = $(this).text();
-        console.log(textValue);
         textValue =textValue.split(' ').join('_');
         if(textValue == "Associé"){
 
@@ -57,13 +56,11 @@
         $("#block-views-client-industries-detail-block .view-content .content").each(function (index) {
             
             var textValue = $(this).find('.views-field-title').text();
-            console.log(textValue);
             textValue =textValue.split(' ').join('_');
             $(this).addClass(textValue);  
         })
 
         $(".view-team-list .view-content .container").each(function (index) {
-            console.log(index);
             var textValue = $(this).find('h3').text();
             textValue =textValue.split(' ').join('_');
             if(textValue == "Associé"){
