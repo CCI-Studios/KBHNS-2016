@@ -18,7 +18,7 @@
           function( event ){
               
               if($(window).width()>1280)
-              $(this).find('> ul.menu').slideToggle();
+              $(this).find('> ul.menu').stop().slideToggle();
           }
         );
 
