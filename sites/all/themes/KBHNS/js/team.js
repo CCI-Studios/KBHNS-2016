@@ -19,24 +19,23 @@ $(function(){
 		});
 			
 
-		$('.view-team-list #Partners .views-row a, .view-team-list #Associe .views-row a').click(function(e){
+		$('.view-team-list #Partners .views-row a, .view-team-list #Associe .views-row a,  .view-team-list .views-row a.view-profile, .view-team-list .views-row a.image-link').click(function(e){
 
 			$('.view-team-list').hide();
-			$('.view-team').show();	
+			$('.view-team').show();
+			$('.view-team .team-container').hide();
 			var rowNum = $(this).closest(".views-row").index()-1;
-			console.log(rowNum);
-			$('.view-team .team-container:first-child').show();
-			$('.view-team .views-row:eq('+rowNum+')').fadeIn();
+			var sectionNum = $(this).closest(".container").index();
+			
+			$('.view-team .team-container:eq('+sectionNum+')').show();
+			$('.view-team .team-container:eq('+sectionNum+') .views-row:eq('+rowNum+')').fadeIn();
 
 			if($(window).width()<767)
 			{
-			  var target = textValue;
-	          var $target = $(target);
-	          $('html, body').stop().animate({
-	              'scrollTop': $target.offset().top-100
-	          }, 400, 'swing', function () {
-	              window.location.hash = target;
-	          });
+          var $target = $('.view-team .team-container:eq('+sectionNum+') .views-row:eq('+rowNum+')');
+          $('html, body').stop().animate({
+              'scrollTop': $target.offset().top-100
+          }, 400, 'swing');
 			}
 			
 			e.preventDefault();
@@ -51,14 +50,6 @@ $(function(){
 			$(this).parents('.view-team').hide();
 			$(this).parents('.view-team').find('.views-row').hide();
 			e.preventDefault();
-		});
-
-		$('.view-more').click(function(e){
-
-			e.preventDefault();
-			$(this).toggleClass('open');
-			$(this).parents('.views-row').find('.body').slideToggle('slow');
-
 		});
 			
 });

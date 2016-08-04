@@ -805,15 +805,6 @@
 		display: none;
 	}
 
-	#Partners,
-	#Associe
-	{	
-		 .views-field-body
-		 {
-		 	display: none;
-		 }
-	}
-
 	.views-row 
 	{	
 
@@ -906,12 +897,14 @@
 		{
 			display: none;
 		}
-
+		.views-field-body
+		{
+		 display: none;
+		}
 		.view-more
 		{
 			display: none;
 		}
-		
 		.field-content>a span:first-child
 		{
 			border: 1px solid #cccccc;
@@ -930,14 +923,11 @@
 		a + div
 		{
 			padding-top: 0px;
-			float: left;
-			width: 80%;
+			padding-right: 15px;
 		}
 
 		.field-content > a 
-		{	
-			float: left;
-			padding-right:20px;
+		{
 
 			span:first-child:hover span
 			{
@@ -951,7 +941,7 @@
 
 			span
 			{	
-				width: 150px;
+				width: 80%;
 				border: 1px solid #ccc;
 
 				span
@@ -1015,7 +1005,13 @@
 			overflow: hidden;
 			text-align: left;
 			padding:20px 0px;
-			border-bottom: 1px solid #ccc;
+			float: left;
+			width: 25%;
+			
+			&:nth-child(4n+2)
+			{
+				clear: left;
+			}
 		}
 	}
 }

@@ -348,12 +348,6 @@
 		padding:50px 10px 0px;
 	}
 
-	.view-team-list
-	{
-		max-width: 630px; 
-		margin: 0 auto;
-	}
-
 	
 	.backbg
 	{
@@ -396,6 +390,35 @@
 		}
 	}
 
+}
+
+
+
+
+@media screen and (max-width:780px)
+{
+	.view-team-list
+	{
+		#Consultants,
+		#Consultation_fr,
+		#Professionals,
+		#Accountants,
+		#Support_Staff,
+		#Professionels,
+		#comptables,
+		#soutien
+		{
+			.views-row
+			{
+				width: 50%;
+				
+				&:nth-child(2n+2)
+				{
+					clear: left;
+				}
+			}
+		}
+	}
 }
 
 
@@ -588,7 +611,6 @@
 	{
 		.views-row
 		{
-			min-width: 280px;
 			padding-right:0px;
 		}
 	}
@@ -889,3 +911,27 @@
 	}
 }
 
+
+
+@media screen and (max-width: 480px)
+{
+	.view-team-list
+	{
+		#Consultants,
+		#Consultation_fr,
+		#Professionals,
+		#Accountants,
+		#Support_Staff,
+		#Professionels,
+		#comptables,
+		#Le_personnel_de_soutien
+		{
+			.views-row
+			{
+				float: none;
+				display: inline-block;
+				width: auto;
+			}
+		}
+	}
+}
