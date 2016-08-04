@@ -17,8 +17,8 @@
           "mouseenter mouseleave",
           function( event ){
               
-              if($(window).width()>1280)
-              $(this).find('> ul.menu').stop().slideToggle();
+              if($(window).width()>1040)
+              $(this).find('> ul.menu').stop().slideToggle(250);
           }
         );
 
