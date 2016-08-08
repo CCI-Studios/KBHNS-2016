@@ -579,7 +579,7 @@
 	{
 		position: absolute;
 		right: 5px;
-		top: 60px;
+		top: 50px;
 		z-index:1;
 	}
 	.close-icon
@@ -779,20 +779,17 @@
 	display:none;
 	position: relative;
 }
-.view-team .close-icon
+.content_fr
 {
-	.fr
-	{
-		display: none;
-	}
+	display: none;
 }
-[lang=fr] .view-team .close-icon
+[lang=fr]
 {
-	.en
+	.content_en
 	{
 		display: none;
 	}
-	.fr
+	.content_fr
 	{
 		display: inline;
 	}
