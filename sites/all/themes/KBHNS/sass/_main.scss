@@ -1029,12 +1029,12 @@ h1
 	.form-actions
 	{
 		text-align: center;
-		width:100px;
 		position: relative;
 		margin: 0 auto;
 
 		input
 		{
+			display: inline-block;
 			cursor: pointer;
 			font-weight: bold;
 			margin: 0 auto;
@@ -1042,25 +1042,15 @@ h1
 			padding: 10px;
 			margin-top: 26px;
 			position: relative;
+			
+			&:hover
+			{
+				color: $seagreen;
+				border-bottom:2px solid $seagreen;
+				margin-bottom: -2px;
+			}
 		}
-
-		&:hover:after
-		{	
-			display: inline-block;
-			content: "";
-			height: 0px;
-			width: 100%;
-			position: absolute;
-			bottom:0px;
-			left: 0px;
-			color: $seagreen;
-			border-bottom:2px solid $seagreen;
-		}
-
-		&:hover input
-		{
-			color: $seagreen;
-		}
+		
 	}
 
 	.form-item
