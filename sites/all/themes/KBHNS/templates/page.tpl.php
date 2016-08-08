@@ -182,7 +182,9 @@
       <div>
         <div>
            <?php print render($page['footer']); ?>
-        <div id="footer-bottom"><p><span><a href="#">TERMS OF USE</a></span></p><p class="copyright">&copy; KBHNS <?php print date('Y'); ?>&nbsp;&nbsp;|&nbsp;&nbsp;Site by <a href="http://ccistudios.com" target="_blank">CCI Studios</a></p>
+        <div id="footer-bottom">
+          <p><span><a href="#"><span class="content_en">TERMS OF USE</span><span class="content_fr">Conditions d’utilisation</span></a></span></p>
+          <p class="copyright">&copy; KBHNS <?php print date('Y'); ?>&nbsp;&nbsp;|&nbsp;&nbsp;<span class="content_en">Site by</span><span class="content_fr">site créé par</span> <a href="http://ccistudios.com" target="_blank">CCI Studios</a></p>
         </div>
           </div>
         </div>
