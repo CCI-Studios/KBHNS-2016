@@ -853,7 +853,6 @@
 		{	
 			padding:10px 0px;
 			height: 20px;
-
 		}
 
 		span
@@ -885,6 +884,10 @@
 	{
 		color: $seagreen;
 	}
+	.contact-info
+	{
+		display: none;
+	}
 
 	#Partners,
 	#Associe
@@ -892,10 +895,6 @@
 		.views-row
 		{
 			padding-right: 21px;
-		}
-		.contact-info
-		{
-			display: none;
 		}
 		.views-field-body
 		{
@@ -928,21 +927,21 @@
 
 		.field-content > a 
 		{
-
-			span:first-child:hover span
-			{
-				display: none;
-			}
-
-			span:first-child + span
-			{
-				display: none;
-			}
-
+			text-align: center;
+			width: 80%;
+			
 			span
 			{	
-				width: 80%;
-				border: 1px solid #ccc;
+				
+				&:first-child
+				{
+					border: 1px solid #ccc;
+					
+					& + span
+					{
+						margin-left: 1px;
+					}
+				}
 
 				span
 				{
@@ -975,12 +974,14 @@
 		}
 
 		.view-more
-		{	
+		{
+			display: none;
+			
 			a
 			{
 				font-weight: bold;
 				display: block;
-				padding: 5px 0px
+				padding: 5px 0px;
 			}
 
 			&.open a:first-child
