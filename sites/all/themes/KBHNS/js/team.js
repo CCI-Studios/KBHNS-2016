@@ -29,14 +29,16 @@ $(function(){
 			
 			$('.view-team .team-container:eq('+sectionNum+')').show();
 			$('.view-team .team-container:eq('+sectionNum+') .views-row:eq('+rowNum+')').fadeIn();
-
+			
+			var $target = $('.view-team .team-container:eq('+sectionNum+') .views-row:eq('+rowNum+')');
+			var headerOffset = 220;
 			if($(window).width()<767)
 			{
-          var $target = $('.view-team .team-container:eq('+sectionNum+') .views-row:eq('+rowNum+')');
-          $('html, body').stop().animate({
-              'scrollTop': $target.offset().top-100
-          }, 400, 'swing');
+          headerOffset = 180;
 			}
+			$('html, body').stop().animate({
+					'scrollTop': $target.offset().top-headerOffset
+			}, 400, 'swing');
 			
 			e.preventDefault();
 
