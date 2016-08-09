@@ -930,5 +930,14 @@
 				width: auto;
 			}
 		}
+		.field-content > a
+		{
+			width: 230px !important;
+			overflow: hidden;
+		}
+		.views-row a span:first-child
+		{
+			width: auto;
+		}
 	}
 }
