@@ -524,20 +524,16 @@
 
 	#block-block-1,
 	#block-block-12
-	{	
+	{
+		background-position: center right;
+		background-attachment: inherit;
+		
 		.content > div
 		{
 			float: none;
 			width: 237px;
 			margin: 0 auto;
 		}
-	}
-
-	#block-block-1,
-	#block-block-12
-	{	
-
-		background-position: center right;
 		.content .address
 		{
 			width: 237px;
