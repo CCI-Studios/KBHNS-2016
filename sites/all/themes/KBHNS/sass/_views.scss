@@ -1039,7 +1039,15 @@
 .member-image
 {
 	float:left;
-	width:40%;
+	width:35%;
+	margin-right: 5%;
+	
+	img
+	{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
 }
 
 .member-body
