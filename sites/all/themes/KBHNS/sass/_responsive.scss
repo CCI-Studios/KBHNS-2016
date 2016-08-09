@@ -173,9 +173,10 @@
 		display: none;
 		position: absolute;
 		right:0px;
-		top:95px;
-		width:250px;
-		background-color:white;
+		top:115px;
+		width:200px;
+		padding: 0 0 5px 5px;
+		overflow: hidden;
 
 		#main-contact,
 		#main-resources
@@ -191,9 +192,11 @@
 			overflow-y: scroll;
 		}
 
-		ul.menu
+		.content > ul
 		{
-			text-align: right;	
+			background: white;
+			box-shadow: 0 0 10px rgba(0,0,0,0.4);
+			text-align: right;
 		}
 
 		ul.menu li
