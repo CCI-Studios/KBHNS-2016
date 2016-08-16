@@ -4,8 +4,6 @@ core = 7.x
 
 ;scripts[] = js/filename.js
 scripts[] = js/background-size.js
-scripts[] = js/typed.min.js
-scripts[] = js/lettering.js
 scripts[] = js/map.js
 scripts[] = js/tabsmini.js
 scripts[] = js/tabs.js
