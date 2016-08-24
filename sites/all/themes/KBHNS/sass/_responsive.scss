@@ -99,8 +99,20 @@
 	{
 		#banner-inner
 		{
-			background:url(../images/contact-bg.jpg) no-repeat center;
+			background:url(../images/contact-bg.jpg) no-repeat center top;
 			background-attachment: inherit;
+			background-size: cover;
+		}
+	}
+	
+	.page-node-143,
+	.page-node-144
+	{
+		#banner-inner
+		{
+			background:url(../images/community-bg.jpg) no-repeat center bottom;
+			background-attachment: inherit;
+			background-size: cover;
 		}
 	}
 
