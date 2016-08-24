@@ -428,9 +428,15 @@
 {	
 	#block-views-header-image-block .views-field-body 
 	{	
-
 		font-size: 18px;
-		padding-left:10px;
+		padding: 0;
+		position: absolute;
+		top: 50%;
+		left: 10px;
+		right: 10px;
+		margin-top: -40px;
+		-webkit-transform: translateY(-50%);
+		transform: translateY(-50%);
 	}
 
 	 #block-views-client-industries-pop-up-block
