@@ -820,15 +820,16 @@
  }
 
 .view-team-list
-{	
+{
+	max-width: 1000px;
+	
 	&.close
 	{
 		display: none;
 	}
 
 	.views-row 
-	{	
-
+	{
 		display: inline-block;
 		padding-right: 23px;
 		text-align: center;
@@ -910,8 +911,7 @@
 		display: none;
 	}
 
-	#Partners,
-	#Associe
+	.container:first-child
 	{
 		.views-row
 		{
@@ -930,16 +930,13 @@
 			border: 1px solid #cccccc;
 		}
 	}
-
-	#Consultants,
-	#Consultation_fr,
-	#Professionals,
-	#Accountants,
-	#Support_Staff,
-	#Professionnels,
-	#comptables,
-	#soutien
+	
+	.container:nth-child(n+2)
 	{
+		.image-link
+		{
+			margin: 0 auto;
+		}
 		a + div
 		{
 			padding-top: 0px;
@@ -1020,12 +1017,11 @@
 			}
 		}
 
-
 		.views-row
 		{
 			display: block;
 			overflow: hidden;
-			text-align: left;
+			text-align: center;
 			padding:20px 0px;
 			float: left;
 			width: 25%;
